@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merge-routing"
+version = "1.0.0"
+description = "MERGE: joint evidence routing under group externalities for multi-agent LLM search (anonymous code release)"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"merge.search" = ["*.npz"]

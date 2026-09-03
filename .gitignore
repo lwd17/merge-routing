@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# experiment inputs/outputs are never committed
+data/
+runs/
+*.log
+.env
